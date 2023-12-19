@@ -11,6 +11,6 @@ import java.io.IOException;
 public class HomePageServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("home.ftl").forward(req,resp);
+        req.getRequestDispatcher("home.jsp").forward(req,resp);
     }
 }
